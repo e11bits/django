@@ -736,24 +736,35 @@ div.breadcrumbs a:focus, div.breadcrumbs a:hover {
     background: url(../img/icon-viewlink.svg) 0 1px no-repeat;
 }
 
-.hidelink {
+.inlineviewlink {
+    background-size: 13px 13px;
+}
+
+.hidelink, .inlinehidelink {
     padding-left: 16px;
     background: url(../img/icon-hidelink.svg) 0 1px no-repeat;
+}
+
+.inlinehidelink {
+    background-size: 13px 13px;
 }
 
 .addlink {
     padding-left: 16px;
     background: url(../img/icon-addlink.svg) 0 1px no-repeat;
+    background-size: 13px 13px;
 }
 
 .changelink, .inlinechangelink {
     padding-left: 16px;
     background: url(../img/icon-changelink.svg) 0 1px no-repeat;
+    background-size: 13px 13px;
 }
 
 .deletelink {
     padding-left: 16px;
     background: url(../img/icon-deletelink.svg) 0 1px no-repeat;
+    background-size: 13px 13px;
 }
 
 a.deletelink:link, a.deletelink:visited {
